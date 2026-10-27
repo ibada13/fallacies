@@ -1,0 +1,856 @@
+{
+  "util": {
+    "header": {
+      "title": "Logical Fallacies"
+    },
+    "hero": {
+      "title": "Discover the World of Logical Fallacies",
+      "subtitle": "Welcome to your guide for exploring and understanding common errors in thinking. Learn how to identify weak arguments and sharpen your critical thinking skills."
+    },
+    "cards": {
+      "understanding": {
+        "title": "Understand Common Errors",
+        "text": "Learn about the most common ways people fall into the trap of flawed thinking."
+      },
+      "criticalThinking": {
+        "title": "Improve Critical Thinking",
+        "text": "Develop your skills to analyze information and arguments effectively."
+      },
+      "strengthenArguments": {
+        "title": "Strengthen Your Arguments",
+        "text": "Build more persuasive arguments and avoid logical gaps in your discussions."
+      }
+    },
+    "search": {
+      "title": "Explore Fallacies",
+      "placeholder": "Search for a fallacy..."
+    },
+    "filter": {
+      "category": "Category:",
+      "all": "All",
+      "informal": "Informal",
+      "formal": "Formal",
+      "favorites": "Favorites",
+      "sortBy": "Sort by:",
+      "sort": {
+        "mostCommon": "Most Common",
+        "alphabetical": "Alphabetical",
+        "leastCommon": "Least Common"
+      }
+    },
+    "fallacy": {
+      "explanation": "Explanation",
+      "back": "Back to Home Page",
+      "examples": "Illustrative Examples",
+      "example": "Example",
+      "example_explanation": "Example Explanation"
+    },
+
+
+    "PageNotFound":"This Page Doesn't Exist"  
+
+  },
+  "fallacy": [
+    {
+      "id": "ad-hominem",
+      "title": "Ad Hominem (Personal Attack)",
+      "description": "Attacking the character of the speaker instead of addressing their argument.",
+      "definition": "This fallacy occurs when an opponent's morals, behavior, or background are challenged instead of starting a critique of the idea they are presenting. The reasoning is flawed because the truth or falsity of a statement does not depend on the human traits of the speaker, but rather on the strength of the evidence and the internal logic of the argument.",
+      "examples": [
+        {
+          "text": "You don't understand economics, so your opinion on this policy is wrong.",
+          "explanation": "The speaker attacks the person's competence instead of discussing the evidence supporting their view. Lacking a degree does not in itself prove the invalidity of a logical analysis."
+        },
+        {
+          "text": "Don't believe his proposal to improve the school; he is a lazy student.",
+          "explanation": "The speaker rejects the proposal due to a behavioral trait of its owner, rather than critiquing the proposal and its core substance."
+        },
+        {
+          "text": "Her opinion on this topic isn't worth discussing because she doesn't have a university degree.",
+          "explanation": "The absence of a degree is used as a reason to dismiss the argument, whereas the validity of a proposal depends on evidence and proof, not the academic status of the speaker."
+        }
+      ]
+    },
+    {
+      "id": "straw-man",
+      "title": "Straw Man Fallacy",
+      "description": "Distorting an opponent's argument to weaken it, then attacking the misrepresentation.",
+      "definition": "A person modifies, overly simplifies, or exaggerates an opponent's argument to make it look weak and illogical, then critiques this distorted argument and claims to have disproved the original opinion. The error lies in dealing with a fake argument that the other party never actually put forward in its core form.",
+      "examples": [
+        {
+          "text": "He said we should reduce our reliance on fossil fuels, to which his opponent replied: 'You want us to abolish industry and go back to the Stone Age!'",
+          "explanation": "The opponent exaggerated the idea of reducing reliance into a complete elimination of industry, attacking this extreme, imaginary idea instead of discussing alternative mechanisms."
+        },
+        {
+          "text": "A teacher suggests reducing homework, and a parent answers: 'You want children to spend all day in front of screens without learning!'",
+          "explanation": "The parent turned the suggestion of easing homework into a call for laziness and digital addiction to make it easier to attack."
+        },
+        {
+          "text": "He demanded improving the quality of food in the restaurant, and the manager replied: 'You think we should spend the entire organization's budget on food!'",
+          "explanation": "The manager framed the complaint in an exaggerated way to make the requester look like they were calling for financial bankruptcy, avoiding the need to improve food quality."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-authority",
+      "title": "Appeal to Unqualified Authority",
+      "description": "Relying on the opinion of a famous person or authority figure in a field outside their expertise.",
+      "definition": "This fallacy occurs when an expert or prominent figure's opinion is cited to support a certain argument in a field where that witness lacks the required expertise or specialization. The reasoning is flawed because fame or excellence in one field does not guarantee correct opinions in unrelated fields.",
+      "examples": [
+        {
+          "text": "This famous actor asserts that this dietary supplement cures heart disease, so we must use it.",
+          "explanation": "The speaker cited an actor with no medical background to give health advice, rather than relying on research from specialized cardiologists."
+        },
+        {
+          "text": "The physicist said this novel is the best literary work of the century, so it undoubtedly is.",
+          "explanation": "A physicist's opinion does not constitute critical authority in the field of literature and narrative analysis."
+        },
+        {
+          "text": "My favorite football player says the country's economic policy is excellent, so we must support it.",
+          "explanation": "An athlete's opinion was adopted as an argument in economic science, a field requiring specialized analysis far removed from sports."
+        }
+      ]
+    },
+    {
+      "id": "false-dilemma",
+      "title": "False Dilemma (Either/Or)",
+      "description": "Limiting available choices to only two opposing options and ignoring others.",
+      "definition": "This fallacy appears when it is assumed that a situation only allows for two extreme choices, while other balanced options and solutions exist. The flaw lies in the arbitrary reduction of reality and the misleading simplification of complex issues.",
+      "examples": [
+        {
+          "text": "Either you fully support this economic plan, or you want the country to go bankrupt.",
+          "explanation": "The speaker restricted stances to complete acceptance or financial ruin, ignoring the possibility of modifying the plan or introducing more effective alternatives."
+        },
+        {
+          "text": "Either you study medicine or you have failed in your professional life.",
+          "explanation": "This reduces professional success exclusively to the medical field, dismissing hundreds of other successful specializations and paths."
+        },
+        {
+          "text": "Either we buy this new product right now, or we will stay behind our competitors forever.",
+          "explanation": "It confines a company's survival and evolution to purchasing one specific product, ignoring other development strategies."
+        }
+      ]
+    },
+    {
+      "id": "slippery-slope",
+      "title": "Slippery Slope Fallacy",
+      "description": "Arguing without evidence that a small first step will inevitably lead to a chain of disastrous consequences.",
+      "definition": "This fallacy is based on the unproven assumption that taking a decision regarding a simple matter will necessarily be followed by a gradual deterioration ending in absolute disaster. The flaw lies in jumping across unjustified logical steps and linking unrelated causes.",
+      "examples": [
+        {
+          "text": "If we allow students to use phones during recess, they will stop studying, their grades will drop, and everyone will fail.",
+          "explanation": "The speaker assumed an inevitable chain of disasters starting with phone usage during a break and ending with total failure, without providing logical links."
+        },
+        {
+          "text": "If we lower the price of an item slightly today, customers will demand everything for free tomorrow, and we will close the company.",
+          "explanation": "It linked a temporary price cut to the complete bankruptcy of the company by imagining unrealistic buyer behavior steps."
+        },
+        {
+          "text": "If you don't work out today, you will become lazy forever and never achieve any goal in your life.",
+          "explanation": "The speaker magnified the impact of missing a single exercise session, tying it to complete failure in life."
+        }
+      ]
+    },
+    {
+      "id": "circular-reasoning",
+      "title": "Circular Reasoning (Begging the Question)",
+      "description": "Using the conclusion you want to prove as part of its supporting premises.",
+      "definition": "In this fallacy, the argument is built upon assuming the truth of the conclusion from the start, where the claim is rephrased in different words to become the very premise cited to prove it. Its error lies in the absence of an independent evidentiary core that validates the claim.",
+      "examples": [
+        {
+          "text": "This book is truthful in everything it says because everything written in it is correct and confirmed.",
+          "explanation": "The speaker used the statement that 'what is written is correct' as proof to establish the truth of the book, which is a recycled claim without external evidence."
+        },
+        {
+          "text": "He is a very honest person, and the proof of that is he never lies.",
+          "explanation": "Making 'not lying' the argument for honesty, even though both concepts express the same trait and no practical witness was provided."
+        },
+        {
+          "text": "The law is wonderful because the regulations it contains are extremely excellent.",
+          "explanation": "Describing the regulations as excellent to prove the quality of the law without explaining the material clauses of the law or its impact."
+        }
+      ]
+    },
+    {
+      "id": "hasty-generalization",
+      "title": "Hasty Generalization",
+      "description": "Drawing a broad conclusion about an entire group based on a small or unrepresentative sample.",
+      "definition": "This fallacy occurs when an all-encompassing judgment is made about an entire category based on a single experience or very limited individual cases. The flaw stems from insufficient statistical or qualitative sample representation of the total group.",
+      "examples": [
+        {
+          "text": "I met two people from that city and they were unfriendly, therefore all of its residents are unfriendly.",
+          "explanation": "The speaker generalized the trait of withdrawal or coldness to all inhabitants of the city based on interactions with only two individuals."
+        },
+        {
+          "text": "I bought a device from this brand and it worked poorly; all products from this brand are failures.",
+          "explanation": "Judged the entire manufacturer and company quality based on an experience with a single product that might have had an individual manufacturing defect."
+        },
+        {
+          "text": "I read one article about this theory and it was complex; all papers in this field of knowledge are complex and incomprehensible.",
+          "explanation": "Assumed the difficulty of the entire specialty based on the experience of reading a single individual text."
+        }
+      ]
+    },
+    {
+      "id": "red-herring",
+      "title": "Red Herring",
+      "description": "Introducing an irrelevant side topic to divert attention away from the core issue of research.",
+      "definition": "This fallacy is used to escape discussing a thorny or weak topic by raising another eye-catching or sensitive issue unrelated to the original matter. The logical flaw is altering the course of the debate and failing to provide an answer or refutation of the presented argument.",
+      "examples": [
+        {
+          "text": "When asked about his plan to reduce pollution, he said: 'We must first talk about the great sports achievements we accomplished this year!'",
+          "explanation": "Evaded answering the environmental plan question by pivoting to a completely different matter of sports awards."
+        },
+        {
+          "text": "Why are you holding me accountable for being late? There are many employees who don't work efficiently in the neighboring offices!",
+          "explanation": "Diverted attention away from the personal error of lateness by opening a file evaluating the efficiency of others."
+        },
+        {
+          "text": "How can you demand an increase in the education budget while the traffic crisis still causes daily bottlenecks?",
+          "explanation": "Exploited the road problem to block discussion on the education budget, which are two separate files each requiring individual treatment."
+        }
+      ]
+    },
+    {
+      "id": "bandwagon-appeal",
+      "title": "Bandwagon Appeal (Ad Populum)",
+      "description": "Asserting that an idea is true simply because the majority of people believe in it or practice it.",
+      "definition": "This fallacy relies on the assumption that common belief or mass behavior guarantees correctness. The reasoning is wrong because the popularity of an opinion among people is not an evidentiary standard for its truth; entire historical societies have agreed upon completely false ideas.",
+      "examples": [
+        {
+          "text": "Everyone is buying this type of phone, so it is the best phone on the market.",
+          "explanation": "Linked the phone's quality to its sales volume and public demand, ignoring technical metrics and hardware specifications."
+        },
+        {
+          "text": "Most people follow this diet, so it must be very healthy and beneficial.",
+          "explanation": "Assumed health benefits solely due to social spread without referring to medical analysis and recommendations."
+        },
+        {
+          "text": "This movie must be great because millions are watching it in cinemas right now.",
+          "explanation": "Used box office earnings and crowd size as an absolute argument for artistic quality, which is not a logical correlation."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-emotion",
+      "title": "Appeal to Emotion",
+      "description": "Manipulating the listener's emotions instead of presenting logical arguments and factual evidence.",
+      "definition": "This fallacy occurs when fear, pity, sadness, or pride are exploited to persuade others to accept a certain position. The fallacy does not mean that feeling is wrong, but rather lies in relying on emotional charge as a complete substitute for rational evidence.",
+      "examples": [
+        {
+          "text": "You must agree to my taking this course; don't you want to see me happy and settled?",
+          "explanation": "Exploited the desire to make others happy to pressure toward accepting the course instead of discussing its viability and content."
+        },
+        {
+          "text": "You cannot punish this employee; he is going through very difficult family circumstances right now.",
+          "explanation": "Pleading for sympathy using special circumstances to obscure the financial or administrative violations recorded against him."
+        },
+        {
+          "text": "Buy this car to feel the true freedom and elegance you deserve.",
+          "explanation": "Focusing on pride and elegance emotions to promote the product instead of clarifying safety and mechanical efficiency."
+        }
+      ]
+    },
+    {
+      "id": "post-hoc-ergo-propter-hoc",
+      "title": "Post Hoc Ergo Propter Hoc (False Cause)",
+      "description": "Assuming that because one event followed another, the first must have caused the second.",
+      "definition": "This fallacy relies on a faulty causal link based purely on chronological sequence. The logical error lies in overlooking the possibility of other common factors, or that the occurrence of the two consecutive events was mere coincidence with no causation.",
+      "examples": [
+        {
+          "text": "I drank this herbal tea and then recovered from a cold the next day, so the tea is what cured me.",
+          "explanation": "Attributed recovery to the tea solely based on temporal precedence, ignoring natural body immunity and time-based rest effects."
+        },
+        {
+          "text": "I wore this shirt and won the contest, so it is a lucky shirt that brings victory.",
+          "explanation": "Linked wearing the shirt and winning based on chronological coincidence without providing a logical or material connection."
+        },
+        {
+          "text": "The rain stopped right after I left the house; my departure caused it.",
+          "explanation": "Assumed that leaving caused the rain to stop simply because the two events occurred sequentially."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-ignorance",
+      "title": "Appeal to Ignorance",
+      "description": "Claiming that an idea is true simply because its falsity has not been proven, or vice versa.",
+      "definition": "This fallacy appears when treating the lack of a refuting or sufficient evidence as conclusive proof for affirmation (or denial). The reasoning is unsound because a lack of knowledge about something is not knowledge of its absence, and the burden of proof always rests on the claimant.",
+      "examples": [
+        {
+          "text": "No one can prove that aliens do not exist, so they definitely exist.",
+          "explanation": "Considered the inability to disprove the concept as material proof of its actual existence, evading the burden of proof."
+        },
+        {
+          "text": "No one has proven that this technology is harmful, therefore it is 100% safe.",
+          "explanation": "Relied on the absence of confirmed evidence of harm to decisively conclude absolute safety without longitudinal testing."
+        },
+        {
+          "text": "Since no one has proven his claim is a lie, we must believe everything he said.",
+          "explanation": "Assumed the truth of a claim based on a lack of refutation, rather than demanding supportive proofs from the claimant."
+        }
+      ]
+    },
+    {
+      "id": "tu-quoque",
+      "title": "Tu Quoque (\"You Too\")",
+      "description": "Rejecting criticism or an argument by pointing out that the critic practices the same behavior.",
+      "definition": "This fallacy is a branch of personal attack and occurs when someone evades an accusation directed at them by pointing out a similar fault in the questioning party. The reasoning is flawed because a person's contradiction with their words does not make their theoretical argument invalid.",
+      "examples": [
+        {
+          "text": "You tell me smoking is harmful, but you smoke too, so your advice is incorrect.",
+          "explanation": "Rejected the logical medical and educational practice of anti-smoking advice based on the advisor engaging in the habit themselves."
+        },
+        {
+          "text": "Why do you blame me for being late for work when you are late sometimes too?",
+          "explanation": "Ignored the personal lateness error to focus on the questioner's error instead of justifying the transgression."
+        },
+        {
+          "text": "You advise me on time management while you spend hours on social media!",
+          "explanation": "Exploited the advisor's distraction to challenge the intrinsic value of time management rules."
+        }
+      ]
+    },
+    {
+      "id": "genetic-fallacy",
+      "title": "Genetic Fallacy",
+      "description": "Judging the validity of an argument or error based solely on its source or origin history.",
+      "definition": "This fallacy happens when a claim is accepted or rejected completely ignoring the context of its original genesis, or the entity that formulated it first, ignoring its self-analysis. The flaw is mixing the historical conditions of beginnings with the current evidentiary value of the idea.",
+      "examples": [
+        {
+          "text": "This theory originated in the eighteenth century, so it cannot be useful or correct today.",
+          "explanation": "Rejected the theory due to its historical era alone without studying the validity of its equations and principles now."
+        },
+        {
+          "text": "This system was created by a commercial company, so it is a corrupt system unfit for use.",
+          "explanation": "Judged the system as corrupt based on its creator entity without testing its functional efficiency."
+        },
+        {
+          "text": "This thought is imported from another culture, therefore it must be completely rejected without discussion.",
+          "explanation": "Made geographic or cultural origin the sole criterion for canceling the scientific or intellectual value of a proposal."
+        }
+      ]
+    },
+    {
+      "id": "begging-the-question",
+      "title": "Begging the Question (Primary)",
+      "description": "Implicitly including the claim to be proved within the argumentative premises.",
+      "definition": "A form close to circular reasoning, where the truth of the idea intended to be reached is implicitly assumed in the premises of the argument. The flaw lies in pre-assuming the conclusion without providing separate supports backing up constructive proposals.",
+      "examples": [
+        {
+          "text": "Organic foods are always healthy because they come from untampered nature.",
+          "explanation": "Assumed that natural ingredients automatically equal health without independent proof of physiological impact."
+        },
+        {
+          "text": "This statement is illegal because it violates regulatory legislation.",
+          "explanation": "Defined illegality as violating legislation without specifying the relevant article or actual qualification."
+        },
+        {
+          "text": "The ugly design appeals to no one because it lacks beauty.",
+          "explanation": "Explained people's dislike by stating the object lacks beauty, which is a repetition of meaning in clear circularity."
+        }
+      ]
+    },
+    {
+      "id": "equivocation",
+      "title": "Equivocation",
+      "description": "Using a single word with two different meanings within the same argumentative context to mislead the listener.",
+      "definition": "This fallacy occurs by utilizing words that carry more than one meaning, where the word is used in its first sense in the premise and in the second sense in the conclusion, making the reasoning appear superficially coherent while semantically disconnected.",
+      "examples": [
+        {
+          "text": "The law enforces justice, and the law of gravity is a law, therefore the law of gravity enforces justice.",
+          "explanation": "Confused human legislative law with natural physics law using the same word to pass a flawed conclusion."
+        },
+        {
+          "text": "Light dispels darkness, and knowledge is light, therefore knowledge dispels darkness in the room.",
+          "explanation": "Used the word 'light' in its physical sense of illumination and its metaphorical cognitive sense to build a faulty deduction."
+        },
+        {
+          "text": "This man has a sharp temper, and anything sharp can cut, therefore this man can cut wood.",
+          "explanation": "Played on the metaphorical meaning of sharpness (nervousness) and the physical material meaning (cutting)."
+        }
+      ]
+    },
+    {
+      "id": "false-cause",
+      "title": "False Cause",
+      "description": "Linking two events with a causal relationship simply because of correlation or sequence without scientific proof.",
+      "definition": "Involves attributing a certain phenomenon to an unreal or insufficient reason to link them, ignoring the real influencing factors. The fallacy simplifies real complexity with weak relativity, allowing the confusion of synchronization with causation.",
+      "examples": [
+        {
+          "text": "Ice cream sales rose this summer and drowning accidents increased, therefore eating ice cream causes drowning.",
+          "explanation": "Overlooked the real common cause, which is high temperatures and increased interest in swimming."
+        },
+        {
+          "text": "The more hospitals there are in a city, the more patients there are; hospitals cause illnesses.",
+          "explanation": "Confused the presence of hospitals to accommodate population growth with them being the cause of ailments."
+        },
+        {
+          "text": "The team wore their new uniform and lost the match; this uniform is the cause of the loss.",
+          "explanation": "Blamed the loss on the uniform instead of analyzing player performance and tactical strategy on the field."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-tradition",
+      "title": "Appeal to Tradition",
+      "description": "Assuming that an idea or practice is correct and preferable simply because it has been done for a long time.",
+      "definition": "The fallacy relies on giving historical age absolute evidentiary authority. The flaw is that the continuity of an idea or habit for many years does not mean it is free of errors or suited to new data and conditions.",
+      "examples": [
+        {
+          "text": "We have run this company this way for thirty years, so there is no need to change our digital tools.",
+          "explanation": "Took the age of practice as a reason to reject automation and modernization, ignoring changes in the competitive environment."
+        },
+        {
+          "text": "This is the traditional way of farming in our region, therefore it is the best and needs no modern techniques.",
+          "explanation": "Linked superiority to historical inheritance rather than comparing crop productivity with modern methods."
+        },
+        {
+          "text": "Our family has followed this folk remedy for generations, so it necessarily cures all diseases.",
+          "explanation": "Granted the old practice absolute medical reliability based on repetition rather than lab analysis."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-novelty",
+      "title": "Appeal to Novelty",
+      "description": "Assuming that an idea or product is better simply because it is newer or recently updated.",
+      "definition": "The exact opposite of the previous fallacy, where it is believed that the latest release or modern pitch automatically surpasses what preceded it. The flaw is making time and formal innovation the sole evaluation criterion without considering field effectiveness.",
+      "examples": [
+        {
+          "text": "This program is the newest release this year, so it is definitely free of bugs and errors.",
+          "explanation": "Assumed absolute programming quality simply due to novelty, while it may contain new vulnerabilities."
+        },
+        {
+          "text": "This management theory was published last month, therefore it is better than all previous theories.",
+          "explanation": "Considered publication recency a definitive standard for management superiority without waiting for field implementation results."
+        },
+        {
+          "text": "We must adopt the new educational curriculum because it is the newest curriculum written so far.",
+          "explanation": "Preferred the curriculum based on release date rather than student achievement test results."
+        }
+      ]
+    },
+    {
+      "id": "sunk-cost-fallacy",
+      "title": "Sunk Cost Fallacy",
+      "description": "Continuing a failed project simply because time or money was previously invested in it.",
+      "definition": "Occurs when a decision is made to continue spending or effort in a losing path, based on the financial or time volume invested in the past that cannot be recovered, instead of evaluating real future costs and benefits.",
+      "examples": [
+        {
+          "text": "I spent half my budget fixing this dilapidated car, so I will finish repairing it no matter what it costs.",
+          "explanation": "Continued financial betting based on what was previously lost, instead of cutting losses and buying a working car."
+        },
+        {
+          "text": "I watched half the movie and it was bad, but I will finish it because I paid the full ticket price.",
+          "explanation": "Wasted the remaining time just to cover the ticket price which won't be returned anyway."
+        },
+        {
+          "text": "We invested two years in this failed project; we can't stop now so those two years aren't wasted.",
+          "explanation": "Refused to stop investment losses to protect the past, which only increases future losses."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-pity",
+      "title": "Appeal to Pity",
+      "description": "Trying to exploit feelings of pity to prompt the other party to accept an argument or overlook a fact.",
+      "definition": "Practiced when providing evidence and rational justifications is replaced by evoking feelings of suffering and pity regarding a person's situation. The reasoning is wrong because a person's emotional state does not change the material truth of the matter.",
+      "examples": [
+        {
+          "text": "You must give me a passing grade on this exam because I worked all night and my family is going through harsh conditions.",
+          "explanation": "Exploited suffering and personal effort as a substitute for objective evaluation of exam answers."
+        },
+        {
+          "text": "Do not accuse this defendant of forgery; he has young children who need his care.",
+          "explanation": "Appealed to the judge using the defendant's family situation without providing evidence disproving the crime of forgery itself."
+        },
+        {
+          "text": "You must buy my products; I've been trying to cover my living expenses for months.",
+          "explanation": "Focused on financial circumstances to convince the buyer instead of explaining product features and benefits."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-fear",
+      "title": "Appeal to Fear",
+      "description": "Evoking fears and warning of terrifying consequences to force others to accept a certain idea.",
+      "definition": "The fallacy relies on instilling panic and exaggerated fears in the recipient to push them toward a specific stance without rational evaluation of real risks or the relevance of the warning to reality.",
+      "examples": [
+        {
+          "text": "If you don't vote for this candidate, crime will spread in our streets and completely destroy our city.",
+          "explanation": "Exploited the fear of crime to bind the voter without presenting the candidate's platform or actual abilities."
+        },
+        {
+          "text": "Buy this security system immediately, otherwise your house will be burglarized at any moment.",
+          "explanation": "Frightening the customer with imminent theft as a sales pressure tactic instead of explaining technical features."
+        },
+        {
+          "text": "If we don't implement this strict policy, the economy will collapse and we will all starve.",
+          "explanation": "Magnifying the consequences of non-implementation by threatening collapse and hunger to block discussion of policy alternatives."
+        }
+      ]
+    },
+    {
+      "id": "no-true-scotsman",
+      "title": "No True Scotsman",
+      "description": "Arbitrarily modifying group definitions to exclude any counterexample that refutes a claim.",
+      "definition": "Appears when a general claim is made about a group, and when a counterexample proving otherwise is presented, standards are retroactively changed by adding the word 'true' to maintain the original statement's validity through evasion.",
+      "examples": [
+        {
+          "text": "He said: 'No Muslim commits this crime.' Another replied: 'But so-and-so, a Muslim, committed it!' He said: 'Then he is not a true Muslim.'",
+          "explanation": "Modified the definition of 'Muslim' to exclude the case critical of the original generalization, instead of modifying the first claim."
+        },
+        {
+          "text": "No professional engineer makes this calculation error. But engineer Khaled made an error! Khaled is not a true engineer.",
+          "explanation": "Denied the professional status of Khaled to protect his false generalization about engineers not making mistakes."
+        },
+        {
+          "text": "A true artist does not use digital techniques. But the most famous artists use them! Those are not true artists.",
+          "explanation": "Excluded technology users from the scope of art by adding a formal condition to protect his own opinion."
+        }
+      ]
+    },
+    {
+      "id": "fallacy-fallacy",
+      "title": "Fallacy Fallacy (Argumentum ad Logicam)",
+      "description": "Assuming that an argument's conclusion is false simply because the reasoning used to prove it contained a fallacy.",
+      "definition": "Occurs when believing that an opponent committing a logical fallacy automatically means the conclusion they reached is false. The flaw lies in mixing the corruption of argumentative structure with the objective truth of the conclusion, which might be true on its own through other evidence.",
+      "examples": [
+        {
+          "text": "Ahmed used the bandwagon fallacy to say sports are useful, therefore sports are not useful.",
+          "explanation": "Ruled athletic benefits invalid simply due to the weakness of Ahmed's argument, even though the benefits of sports are facts proven by other medical evidence."
+        },
+        {
+          "text": "You cited an unqualified authority to prove the Earth is round, therefore the Earth is not round.",
+          "explanation": "Rejected the roundness of Earth because of an argumentative citation error, ignoring governing physical scientific proofs."
+        },
+        {
+          "text": "Your argument contains a hasty generalization about the importance of sleep, therefore sleep is not important for health.",
+          "explanation": "Canceled the importance of sleep due to a flaw in argument formulation, ignoring biological facts."
+        }
+      ]
+    },
+    {
+      "id": "special-pleading",
+      "title": "Special Pleading",
+      "description": "Applying general rules to everyone while demanding an exception for oneself without objective justification.",
+      "definition": "Occurs when someone imposes a moral or logical standard on others, then exempts themselves or a preferred idea when applying that same standard, using vague particularity with no objective methodology.",
+      "examples": [
+        {
+          "text": "Everyone must commit to standing in line, but I am in a hurry today so I can bypass the queue.",
+          "explanation": "Exempted himself from the general queue rule under the pretext of being in a hurry, which applies to many others too."
+        },
+        {
+          "text": "Budgets must be cut in all departments to face the crisis, except for my department because it does exceptional work.",
+          "explanation": "Demanded exemption from the austerity plan without presenting distinguishing performance indicators supporting his claim."
+        },
+        {
+          "text": "Lateness is prohibited for all employees, but my lateness is acceptable because my circumstances are special and cannot be compared to anyone.",
+          "explanation": "Claimed absolute particularity to evade discipline standards applied to everyone."
+        }
+      ]
+    },
+    {
+      "id": "burden-of-proof",
+      "title": "Shifting the Burden of Proof",
+      "description": "Asking the opponent to prove the falsity of a claim instead of providing evidence for its truth.",
+      "definition": "This fallacy consists of someone putting forward a hypothetical claim, and instead of providing supporting evidence, demanding the other party disprove it, or else it is considered true. The logical principle dictates that the burden of proof rests on the claimant.",
+      "examples": [
+        {
+          "text": "I claim there is a magical cure for this substance, and I challenge you to prove otherwise!",
+          "explanation": "Threw the burden of refutation on the opponent instead of providing laboratory analysis confirming his discovery."
+        },
+        {
+          "text": "This project will achieve fantastic profits, and if you doubt that, prove to me that it will fail.",
+          "explanation": "Demanded the partner disprove success, forgetting that a feasibility study is what proves profitability first."
+        },
+        {
+          "text": "There is a mysterious object orbiting this planet, and you are required to prove it doesn't exist to refute my words.",
+          "explanation": "Shifted the verification task to the denying party while ignoring his own obligation to present photos and observational evidence."
+        }
+      ]
+    },
+    {
+      "id": "gamblers-fallacy",
+      "title": "Gambler's Fallacy",
+      "description": "Believing that independent past probabilities affect future probability outcomes.",
+      "definition": "Occurs when assuming that the repetition of an independent random event in consecutive times changes the percentage probability of its occurrence next time. The flaw is combining statistically independent events and treating them as having cumulative effects.",
+      "examples": [
+        {
+          "text": "I tossed the coin and got 'heads' five times in a row, so the next toss will definitely be 'tails'.",
+          "explanation": "Ignored that the probability of each toss remains 50%, completely independent of past toss results."
+        },
+        {
+          "text": "I lost this game ten times in a row, so a win is very close in the next round.",
+          "explanation": "Assumed that luck automatically adjusts with repeated loss in a game based on randomness."
+        },
+        {
+          "text": "It hasn't rained in our city for a long time, so it will definitely rain tomorrow.",
+          "explanation": "Tied rainfall purely to the duration of the dry spell, ignoring weather rules and meteorological forecasts."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-nature",
+      "title": "Appeal to Nature",
+      "description": "Asserting that everything natural is necessarily good and healthy, and everything artificial is bad.",
+      "definition": "The fallacy relies on a purely moral or health-based link between a thing originating from nature and it being beneficial and safe. The fallacy ignores the existence of many natural toxic and poisonous substances, and that artificial modification serves therapeutic and protective goals.",
+      "examples": [
+        {
+          "text": "This medicine is chemically manufactured so it is harmful, while this herb is completely natural so it is 100% safe.",
+          "explanation": "Stripped safety from the chemical compound simply because it is manufactured, and denied herbs the risk of poisoning resulting from natural toxic components."
+        },
+        {
+          "text": "Genetically modified foods are unnatural, so they are necessarily unhealthy and cause diseases.",
+          "explanation": "Ruled genetic modification harmful based on the nature criterion alone, without evaluating food safety tests."
+        },
+        {
+          "text": "We must not use industrial products because our ancestors lived on direct nature and were better than us.",
+          "explanation": "Assumed health superiority of a nature-based past, ignoring high mortality rates of older generations due to a lack of vaccines."
+        }
+      ]
+    },
+    {
+      "id": "composition-fallacy",
+      "title": "Fallacy of Composition (Part to Whole)",
+      "description": "Assuming that what is true of the parts of a whole must be true of the whole as well.",
+      "definition": "Occurs when transferring the characteristics of individual elements making up a structure onto the final aggregate structure completely. The reasoning is flawed because the interaction of parts may produce new characteristics entirely different from the traits of each single part.",
+      "examples": [
+        {
+          "text": "Every player on this team is the best in their position, therefore this team is the best team in the league.",
+          "explanation": "Assumed that individual quality guarantees the overall cohesion and success of the team system without considering harmony and tactics."
+        },
+        {
+          "text": "Every part in this machine is lightweight, therefore the entire machine is very lightweight.",
+          "explanation": "Ignored that assembling hundreds of light parts will result in a heavy total weight for the assembled machine."
+        },
+        {
+          "text": "Every sentence in this article is excellent, so the article as a whole is wonderful and coherent.",
+          "explanation": "Oversaw the possibility of weak narrative and inconsistency between excellent sentences when collected into a single text."
+        }
+      ]
+    },
+    {
+      "id": "division-fallacy",
+      "title": "Fallacy of Division (Whole to Part)",
+      "description": "Assuming that what is true of the whole must be true of each of its parts.",
+      "definition": "The exact opposite of the composition fallacy, where qualities of the overall group or composite entity are attributed to any internal individual element. The reasoning is inaccurate because the part may lack the composite property that appears only through aggregate interaction.",
+      "examples": [
+        {
+          "text": "This company is huge and very successful, therefore every employee working in it is necessarily successful and creative.",
+          "explanation": "Attributed overall organizational success to every individual in it, ignoring the possibility of poorly performing employees."
+        },
+        {
+          "text": "This book is complex and hard to understand, therefore every page in it is extremely complex.",
+          "explanation": "Generalized the comprehensive conceptual difficulty of the book to its parts, which may include simple pages and introductory explanations."
+        },
+        {
+          "text": "This building is impressive and luxurious, therefore every room in it is luxurious and designed with the highest quality.",
+          "explanation": "Matched the overall architectural value of the building with internal components that might contain modest utility rooms."
+        }
+      ]
+    },
+    {
+      "id": "anecdotal-fallacy",
+      "title": "Anecdotal Fallacy",
+      "description": "Using a personal experience or individual story instead of relying on scientific evidence or statistics.",
+      "definition": "Appears when using an isolated anecdote to refute statistical facts or reliable scientific studies. The logical flaw lies in considering subjective experiences prone to bias and anomalies sufficient to invalidate general objective data.",
+      "examples": [
+        {
+          "text": "My grandfather smoked daily and lived to age ninety, therefore smoking is not as harmful as people say.",
+          "explanation": "Cited his grandfather's exceptional case to challenge thousands of medical studies confirming the health hazards of smoking."
+        },
+        {
+          "text": "My friend used this app and didn't like it, therefore this app is useless for anyone.",
+          "explanation": "Generalized one person's impression to override the quality of an application relied on by thousands of users."
+        },
+        {
+          "text": "I traveled to that country and faced no security problems, therefore security risk reports there are lies.",
+          "explanation": "Made his limited individual experience a standard to cancel comprehensive security indicators and data."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-wealth",
+      "title": "Appeal to Wealth (Plutocratic Fallacy)",
+      "description": "Assuming that a rich person is more correct or competent simply because they have money.",
+      "definition": "The fallacy relies on linking intellectual value or moral truth to financial success. The flaw is that wealth may come through factors, circumstances, and inheritance, and does not necessarily reflect the quality of opinions or scientific suitability of a proposed view.",
+      "examples": [
+        {
+          "text": "This billionaire advises investing in this company, therefore his opinion is 100% guaranteed.",
+          "explanation": "Granted wealth immunity from investment error without evaluating the direct financial analysis of the project."
+        },
+        {
+          "text": "He is a very wealthy man, so he certainly knows how to manage educational institutions brilliantly.",
+          "explanation": "Assumed that commercial financial success translates automatically into administrative expertise in the academic sector."
+        },
+        {
+          "text": "Opinions coming from large investors are always the most rational and sound.",
+          "explanation": "Linked the soundness of thought to the speaker's financial size, ignoring independent academic scientific opinions."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-poverty",
+      "title": "Appeal to Poverty (Privation)",
+      "description": "Assuming that a poor person is more moral or truthful simply because they have no money.",
+      "definition": "The counter to the wealth fallacy, occurring by claiming that financial simplicity makes one honest, wiser, and more correct. The reasoning is wrong because poverty or richness is not a subjective criterion for honesty or accuracy of logical arguments.",
+      "examples": [
+        {
+          "text": "This simple farmer lives a poor life, therefore his talk about foreign policy is the truest.",
+          "explanation": "Linked integrity and geopolitical analysis to the speaker's poverty, rather than studying his evidence and facts."
+        },
+        {
+          "text": "The small, poor company is led by good people, so its products are better than big companies.",
+          "explanation": "Preferred product quality based on the manufacturer's financial solvency instead of testing efficiency and quality."
+        },
+        {
+          "text": "He owns nothing in this life, so it's impossible for him to lie or mislead us in his testimony.",
+          "explanation": "Assumed moral infallibility due to material need, ignoring that honesty stems from principles and evidence."
+        }
+      ]
+    },
+    {
+      "id": "middle-ground",
+      "title": "Middle Ground Fallacy",
+      "description": "Assuming that the middle solution between two opposing positions is always the correct choice.",
+      "definition": "Based on the belief that truth always lies in the middle between two divergent opinions. The reasoning is illogical because one of the opposing opinions could be entirely correct and the other completely false, and compromising to get a middle ground harms the truth.",
+      "examples": [
+        {
+          "text": "Someone says the Earth is round and another says it is flat; the middle ground is that it is half-round and half-flat.",
+          "explanation": "Invented a ridiculous middle solution to combine a clear scientific truth with a proven myth."
+        },
+        {
+          "text": "A company demands 100 thousand dollars as a rightful claim, and the buyer refuses to pay entirely; the solution is settling for 50 thousand.",
+          "explanation": "Assumed the midpoint value is automatically fair without studying actual contracts and legal obligations."
+        },
+        {
+          "text": "One party sees this liquid as totally toxic and the other sees it as safe, so it has moderate toxicity and you can drink a little of it.",
+          "explanation": "Sacrificed health safety by conceding the existence of a middle point between medical right and wrong."
+        }
+      ]
+    },
+    {
+      "id": "fallacy-of-omission",
+      "title": "Fallacy of Omission (Cherry Picking)",
+      "description": "Ignoring evidence and information that contradicts the argument and focusing only on supporting points.",
+      "definition": "Occurs when a person selectively highlights evidence supporting their stance, and intentionally stays silent on core facts and data that weaken or invalidate their argument, to mislead the listener with an incomplete narrative.",
+      "examples": [
+        {
+          "text": "He reviewed his company's financial achievements focusing only on the successful quarter, ignoring large losses in the rest of the year.",
+          "explanation": "Deleted financial deficit data to give a fake picture of the company's overall profitability."
+        },
+        {
+          "text": "He promoted the dietary supplement by mentioning its muscle benefits, while hiding serious side effects recorded for it.",
+          "explanation": "Oversaw health damages to block the buyer from forming a safe and complete evaluation."
+        },
+        {
+          "text": "He displayed the strengths of his used car for sale, and kept completely quiet about mechanical issues in the vehicle.",
+          "explanation": "Concealed core defects to pass the sale process through a misleadingly positive framed view."
+        }
+      ]
+    },
+    {
+      "id": "gamblers-reversal",
+      "title": "Confirmation Bias",
+      "description": "Searching only for information that supports a pre-existing idea and ignoring what contradicts it.",
+      "definition": "Consists of a tendency to gather and recall data agreeing with existing beliefs, interpreting ambiguous passages in favor of one's view, and excluding or downplaying contradictory evidence. The flaw is selectivity instead of comprehensive objective research.",
+      "examples": [
+        {
+          "text": "He believes a specific horoscope predicts luck, so he remembers happy days and excludes all bad days he went through.",
+          "explanation": "Picked situations matching the horoscope hypothesis and ignored many contradictions of reality."
+        },
+        {
+          "text": "He searches the internet only for articles supporting the harms of a certain food, and refuses to read positive papers about it.",
+          "explanation": "Directed research to boost his existing personal opinion instead of reviewing the total scientific picture."
+        },
+        {
+          "text": "He sees his city as the safest, so he highlights positive news and excludes criminal reports.",
+          "explanation": "Filtered incoming data to protect a pre-conceived notion refusing opposing evidence."
+        }
+      ]
+    },
+    {
+      "id": "fallacy-of-division-logic",
+      "title": "Fallacy of Improper Division (Misguided Sorting)",
+      "description": "Separating composite traits and claiming they exist in every independent partial element.",
+      "definition": "Occurs through flawed logical connection trying to dismantle a property distinguishing a societal entity and turning it into a mandatory condition in its partial units. Its error is neglecting network integration generating general properties without them existing inherently in individual cells.",
+      "examples": [
+        {
+          "text": "Arab society has an ancient history, therefore every individual in it possesses deep historical culture.",
+          "explanation": "Attributed the trait of collective antiquity to every individual automatically without considering individual cognitive differences."
+        },
+        {
+          "text": "This organization is characterized by integrity and transparency, therefore every employee in its branches is necessarily honest.",
+          "explanation": "Deprived the organizational system of the possibility of individuals breaking regulations individually."
+        },
+        {
+          "text": "The council is subject to democratic voting, therefore all decisions issued by it are totally wise.",
+          "explanation": "Linked collective decision-making mechanism to absolute quality of all partial outcomes resulting from it."
+        }
+      ]
+    },
+    {
+      "id": "moral-equivalence",
+      "title": "Moral Equivalence",
+      "description": "Equating completely different actions in degree of wrongness or ethics without regard to differences.",
+      "definition": "Occurs when comparing two actions or events varying in scale and context, claiming they are morally identical. The flaw lies in overlooking proportionality, motivation, and impact resulting from each action.",
+      "examples": [
+        {
+          "text": "Fining someone for parking distance is like armed bank robbery; both break the law equally.",
+          "explanation": "Equated a minor traffic violation with a serious felony just because they fall under the concept of law-breaking."
+        },
+        {
+          "text": "Scolding a student for neglect is exactly like physical violence against them; both are psychological harm.",
+          "explanation": "Overlooked the huge difference in impact and educational legitimacy between guidance and physical assault."
+        },
+        {
+          "text": "Canceling a service subscription is like major treason; both are breaches of covenant.",
+          "explanation": "Exaggerated terminating a legitimate commercial contract and equated it with moral treason."
+        }
+      ]
+    },
+    {
+      "id": "appeal-to-consequences",
+      "title": "Appeal to Consequences (Ad Consequentiam)",
+      "description": "Evaluating the truth of an idea based on the desirability of the consequences it produces.",
+      "definition": "Occurs when claiming an idea is true because the consequences of believing it are comfortable or useful, or that an idea is false because the repercussions of accepting it are harsh. Reasoning is unsound because reality is not shaped based on our desires or fears.",
+      "examples": [
+        {
+          "text": "This economic crisis cannot be coming, because its occurrence means many people will go bankrupt.",
+          "explanation": "Denied the material proximity of the crisis simply because its results are painful, instead of measuring financial indicators."
+        },
+        {
+          "text": "We must believe this treatment is effective, otherwise it means patients have no hope of recovery.",
+        "explanation": "Made clinging to hope evidence of the medicine's efficacy, overlooking clinical tests."
+        },
+        {
+          "text": "This scientific theory is definitely wrong, because accepting it will make people feel unimportant.",
+          "explanation": "Rejected scientific truth due to its annoying psychological impact instead of critiquing its research evidence."
+        }
+      ]
+    },
+    {
+      "id": "faulty-analogy",
+      "title": "Faulty Analogy (Weak Analogy)",
+      "description": "Comparing two things that are not similar in core points to build an argument upon them.",
+      "definition": "Relies on making a comparison between two situations based on superficial or marginal similarity, while overlooking essential structural differences between them that make transferring judgment from the first to the second a flawed inference.",
+      "examples": [
+        {
+          "text": "Managing countries is just like managing a family; we must eliminate debts immediately as we do in the household budget.",
+          "explanation": "Ignored the massive structural differences between a state's macroeconomy and a simple family budget."
+        },
+        {
+          "text": "Watches need an intelligent maker to assemble them, so complex nature needs a maker by the same physical mechanism.",
+          "explanation": "Compared living beings and evolved ecological systems to closed mechanical machines."
+        },
+        {
+"text": "A teacher tests students for evaluation, so the police must test citizens randomly on the street.",
+          "explanation": "Compares an educational assessment context within a classroom to police authority and civic rights on the street, ignoring the fundamentally different domains, legal bounds, and purposes of each."
+
+        }
+      ]
+    }
+  ]
+}

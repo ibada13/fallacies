@@ -1,0 +1,31 @@
+@import "tailwindcss";
+@import "@fontsource/cairo/400.css";
+@import "@fontsource/scheherazade-new/400.css";
+
+:root {
+  --background: #f8ebd5;
+
+  --fg:#010101;
+  --light :#fff7ea ; 
+  --primary: #4A90E2;
+  --accent-green: #28A745;
+  --accent-purple: #6C5CE7;
+  --favorite: #FFD700;
+  --border: #d1d1d1;
+}
+
+@theme inline {
+  --color-bg: var(--background);
+  --color-light:var(--light) ;
+  --color-fg: var(--fg);
+
+  --color-accent-green: var(--accent-green);
+  --color-accent-purple: var(--accent-purple);
+  --color-primary: var(--primary);
+  --color-favorite: var(--favorite);
+  --color-border: var(--border);
+}
+
+body{
+  font-family: 'Cairo' ,sans-serif;
+}
