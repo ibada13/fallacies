@@ -11,6 +11,7 @@ export default defineConfig({
       },
     }),
   ],
+  base:"fallacies",
   resolve: {
     dedupe: ['react', 'react-dom'],
   },
