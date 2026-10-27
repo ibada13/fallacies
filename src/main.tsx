@@ -101,7 +101,7 @@ function Root() {
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <HelmetProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/fallacies">
         <Root />
       </BrowserRouter>
     </HelmetProvider>
